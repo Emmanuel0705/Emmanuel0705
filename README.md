@@ -7,7 +7,10 @@
 
 <a href="https://trade.dex.org/"><img src="https://img.shields.io/badge/Working_at-DEX-F0457A?style=for-the-badge" alt="DEX" /></a>&nbsp;
 <img src="https://img.shields.io/badge/Open_to-Contract_work-8B5CF6?style=for-the-badge" alt="Open to contract work" />
-<!-- LINK BADGES: add LinkedIn / X / Email here -->
+<br />
+<a href="https://www.linkedin.com/in/oluwatobi-ajibola"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>&nbsp;
+<a href="https://x.com/codehood_guru"><img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" alt="X" /></a>&nbsp;
+<a href="mailto:emmanuelloluwatobi@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
 
 </div>
 
