@@ -4,7 +4,6 @@
 <br />
 <img src="https://readme-typing-svg.demolab.com?font=Kalam&weight=700&size=24&duration=2800&pause=1200&color=8B5CF6&center=true&vCenter=true&width=720&height=40&lines=I+build+products+end+to+end+%3A);NestJS+%C2%B7+React+Native+%C2%B7+Postgres;Trading+systems+%C2%B7+Mobile+apps+%C2%B7+APIs" alt="I build products end to end" />
 
-<br /><br />
 
 <a href="https://trade.dex.org/"><img src="https://img.shields.io/badge/Working_at-DEX-F0457A?style=for-the-badge" alt="DEX" /></a>&nbsp;
 <img src="https://img.shields.io/badge/Open_to-Contract_work-8B5CF6?style=for-the-badge" alt="Open to contract work" />
@@ -32,8 +31,7 @@ I'm a full-stack engineer. I build products from the database schema to the App 
 
 <br /><br />
 
-<img height="170" src="https://streak-stats.demolab.com/?user=Emmanuel0705&hide_border=true&background=00000000&ring=F0457A&fire=F0457A&currStreakLabel=F0457A&sideLabels=8B5CF6&currStreakNum=8B949E&sideNums=8B949E&dates=8B949E" alt="GitHub streak" />
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Emmanuel0705&layout=compact&langs_count=6&hide=html,css,scss&hide_border=true&bg_color=00000000&title_color=8B5CF6&text_color=8B949E&custom_title=Most%20Used%20Languages" alt="Most used languages" />
+<img src="https://streak-stats.demolab.com/?user=Emmanuel0705&hide_border=true&background=00000000&ring=F0457A&fire=F0457A&currStreakLabel=F0457A&sideLabels=8B5CF6&currStreakNum=8B949E&sideNums=8B949E&dates=8B949E" alt="GitHub streak" />
 
 </div>
 
@@ -43,15 +41,15 @@ I'm a full-stack engineer. I build products from the database schema to the App 
 
 <sub>Most of my production code lives in private and client repositories. Here's what some of it does.</sub>
 
-**[DEX](https://trade.dex.org/): crypto trading app and backend**
+**[DEX](https://trade.dex.org/): crypto trading app and backend**<br />
 A mobile exchange with spot and perpetual futures (TP/SL, up to 5× leverage), live charts and order books, and portfolio tracking, backed by a NestJS backend organised into clean-architecture modules: execution, market data, portfolio/PnL, social, and an outbox-based messaging layer.
 `Expo` `NestJS` `Prisma` `PostgreSQL` `Smart wallets`
 
-**Cue: multi-timeframe trading desk** · *iOS / Android app, backend, and MT5 feed*
+**Cue: multi-timeframe trading desk** · *iOS / Android app, backend, and MT5 feed*<br />
 Reads twelve markets across four timeframes and explains, in plain English, what the charts are doing. I built all three parts: an MQL5 expert advisor that pushes HMAC-signed market data out of MetaTrader 5, a NestJS + Postgres service that ingests it and computes multi-timeframe analysis, and an Expo app that receives live prices over WebSocket. Paid "Deep Analysis" calls run on credits.
 `Expo` `React Native` `NestJS` `Prisma` `Postgres` `WebSocket` `MQL5`
 
-**MarketBridge: trading data & execution platform**
+**MarketBridge: trading data & execution platform**<br />
 A NestJS platform that replaced a legacy PHP data API. It bridges MetaTrader 5 terminals to HTTP: candles, indicators, analysis feeds, chart rendering, order management, the economic calendar, and an MCP server so AI agents can use it as a toolset. Every legacy endpoint kept its exact contract, so existing bots and integrations moved over without changes.
 `NestJS` `Redis` `BullMQ` `MCP` `Anthropic SDK` `OpenAPI`
 
@@ -61,7 +59,7 @@ A NestJS platform that replaced a legacy PHP data API. It bridges MetaTrader 5 t
 
 `NestJS` `TCP / binary protocols` `MongoDB` `Twilio` `Paystack` `Next.js`
 
-**TheThread: phone-video directing tool**
+**TheThread: phone-video directing tool**<br />
 A desktop app for building realistic phone-interaction videos on a timeline. Every screen is a pure function of time, so the same React components render the live preview and the exported 9:16 MP4.
 `React` `Vite` `Remotion`
 
