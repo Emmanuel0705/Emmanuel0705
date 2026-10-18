@@ -1,51 +1,73 @@
-### Hi, I'm Oluwatobi Ajibola
+<div align="center">
 
-**Full-stack engineer.** I build products end to end: the NestJS backend, the React Native app, the web dashboard, and the infrastructure in between. Most of my recent work sits in fintech and trading, where data has to be fast and correct.
+<img src="https://readme-typing-svg.demolab.com?font=Kalam&weight=700&size=52&duration=1&pause=100000&color=F0457A&center=true&vCenter=true&repeat=false&width=720&height=80&lines=Hello!+I'm+Oluwatobi" alt="Hello! I'm Oluwatobi" />
+<br />
+<img src="https://readme-typing-svg.demolab.com?font=Kalam&weight=700&size=24&duration=2800&pause=1200&color=8B5CF6&center=true&vCenter=true&width=720&height=40&lines=I+build+products+end+to+end+%3A);NestJS+%C2%B7+React+Native+%C2%B7+Postgres;Trading+systems+%C2%B7+Mobile+apps+%C2%B7+APIs" alt="I build products end to end" />
 
-- 🔭 Developer at [DEX](https://trade.dex.org/), building the trading app and backend
-- ⚙️ Also building trading infrastructure: MetaTrader 5 bridges and market-data pipelines
-- 🧰 Comfortable owning a product from database schema to App Store build
-- 📫 Open to full-time roles and contract work
+<br /><br />
 
-<br>
+<a href="https://trade.dex.org/"><img src="https://img.shields.io/badge/Working_at-DEX-F0457A?style=for-the-badge" alt="DEX" /></a>&nbsp;
+<img src="https://img.shields.io/badge/Open_to-Contract_work-8B5CF6?style=for-the-badge" alt="Open to contract work" />
+<!-- LINK BADGES: add LinkedIn / X / Email here -->
 
-#### Stack
+</div>
 
-**Backend** &nbsp; TypeScript · Node.js · NestJS · Bun / Elysia · PostgreSQL · Prisma · MongoDB · Redis / BullMQ · WebSockets · REST · GraphQL
-**Mobile & web** &nbsp; React Native · Expo · React · Next.js · TanStack Query · Tailwind CSS
-**Also** &nbsp; MQL5 (MetaTrader 5) · Solidity · EVM / Sui / Starknet · MCP servers & LLM agents · Docker
+<br />
 
-<br>
+I'm a full-stack engineer. I build products from the database schema to the App Store build: NestJS backends, React Native apps, web dashboards, and the infrastructure in between. Lately that's mostly fintech and trading, where data has to be fast and correct.
 
-#### Selected work
+### About me
 
-Most of my production code lives in private and client repositories. Here's what some of it does.
+- 💼 Developer at [**DEX**](https://trade.dex.org/), building the trading app and backend
+- 📈 I build trading infrastructure: MetaTrader 5 bridges, market-data pipelines, MCP servers for AI agents
+- 📱 I've shipped mobile apps, APIs and admin dashboards for fintech, mobility, food delivery and Web3
+- 🔥 **3,300+ contributions** since 2018, most of them in private production repos
+- 💬 Open to full-time roles and contract work
 
-**Cue — multi-timeframe trading desk** · *iOS / Android app, backend, and MT5 feed*
-Reads twelve markets across four timeframes and explains, in plain English, what the charts are doing. I built all three parts: an MQL5 expert advisor that pushes HMAC-signed market data out of MetaTrader 5, a NestJS + Postgres service that ingests it and computes multi-timeframe analysis, and an Expo app that receives live prices over WebSocket. Paid "Deep Analysis" calls run on credits.
-`Expo` `React Native` `NestJS` `Prisma` `Postgres` `WebSocket` `MQL5`
+<br />
 
-**MarketBridge — trading data & execution platform**
-A NestJS platform that replaced a legacy PHP data API. It bridges MetaTrader 5 terminals to HTTP: candles, indicators, analysis feeds, chart rendering, order management, the economic calendar, and an MCP server so AI agents can use it as a toolset. Every legacy endpoint kept its exact contract, so existing bots and integrations moved over without changes. It runs as separate API, EA-gateway, and worker processes.
-`NestJS` `Redis` `BullMQ` `MCP` `Anthropic SDK` `OpenAPI`
+<div align="center">
 
-**[DEX](https://trade.dex.org/) — crypto trading app and backend**
+<img src="https://skillicons.dev/icons?i=ts,js,nodejs,nestjs,bun,react,nextjs,tailwind,postgres,prisma,mongodb,redis,graphql,docker,solidity&perline=15" alt="TypeScript, JavaScript, Node.js, NestJS, Bun, React, Next.js, Tailwind, PostgreSQL, Prisma, MongoDB, Redis, GraphQL, Docker, Solidity" />
+
+<br /><br />
+
+<img height="170" src="https://streak-stats.demolab.com/?user=Emmanuel0705&hide_border=true&background=00000000&ring=F0457A&fire=F0457A&currStreakLabel=F0457A&sideLabels=8B5CF6&currStreakNum=8B949E&sideNums=8B949E&dates=8B949E" alt="GitHub streak" />
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Emmanuel0705&layout=compact&langs_count=6&hide=html,css,scss&hide_border=true&bg_color=00000000&title_color=8B5CF6&text_color=8B949E&custom_title=Most%20Used%20Languages" alt="Most used languages" />
+
+</div>
+
+<br />
+
+### 🛠 Selected work
+
+<sub>Most of my production code lives in private and client repositories. Here's what some of it does.</sub>
+
+**[DEX](https://trade.dex.org/): crypto trading app and backend**
 A mobile exchange with spot and perpetual futures (TP/SL, up to 5× leverage), live charts and order books, and portfolio tracking, backed by a NestJS backend organised into clean-architecture modules: execution, market data, portfolio/PnL, social, and an outbox-based messaging layer.
 `Expo` `NestJS` `Prisma` `PostgreSQL` `Smart wallets`
 
-**Blu — mobility & delivery**
+**Cue: multi-timeframe trading desk** · *iOS / Android app, backend, and MT5 feed*
+Reads twelve markets across four timeframes and explains, in plain English, what the charts are doing. I built all three parts: an MQL5 expert advisor that pushes HMAC-signed market data out of MetaTrader 5, a NestJS + Postgres service that ingests it and computes multi-timeframe analysis, and an Expo app that receives live prices over WebSocket. Paid "Deep Analysis" calls run on credits.
+`Expo` `React Native` `NestJS` `Prisma` `Postgres` `WebSocket` `MQL5`
+
+**MarketBridge: trading data & execution platform**
+A NestJS platform that replaced a legacy PHP data API. It bridges MetaTrader 5 terminals to HTTP: candles, indicators, analysis feeds, chart rendering, order management, the economic calendar, and an MCP server so AI agents can use it as a toolset. Every legacy endpoint kept its exact contract, so existing bots and integrations moved over without changes.
+`NestJS` `Redis` `BullMQ` `MCP` `Anthropic SDK` `OpenAPI`
+
+**Blu: mobility & delivery**
 - *Bike-rental GPS gateway:* a NestJS service that terminates raw TCP from GT06 GPS trackers, decodes binary CRC-framed packets, and exposes live positions and remote commands over HTTP.
 - *WhatsApp food delivery:* customers, vendors, and riders order and deliver entirely through WhatsApp. It also has Paystack payments and a Next.js admin for menus, payouts, and analytics.
 
 `NestJS` `TCP / binary protocols` `MongoDB` `Twilio` `Paystack` `Next.js`
 
-**TheThread — phone-video directing tool**
+**TheThread: phone-video directing tool**
 A desktop app for building realistic phone-interaction videos on a timeline. Every screen is a pure function of time, so the same React components render the live preview and the exported 9:16 MP4.
 `React` `Vite` `Remotion`
 
-<br>
+<br />
 
-#### Open source
+### 🌱 Open source
 
 | Project | What it is |
 |---|---|
