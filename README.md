@@ -2,7 +2,8 @@
 
 **Full-stack engineer.** I build products end to end: the NestJS backend, the React Native app, the web dashboard, and the infrastructure in between. Most of my recent work sits in fintech and trading, where data has to be fast and correct.
 
-- 🔭 Currently building trading infrastructure (MetaTrader 5 bridges, market-data pipelines) and mobile products at [@Bossbus-Tech](https://github.com/Bossbus-Tech)
+- 🔭 Developer at [DEX](https://trade.dex.org/), building the trading app and backend
+- ⚙️ Also building trading infrastructure: MetaTrader 5 bridges and market-data pipelines
 - 🧰 Comfortable owning a product from database schema to App Store build
 - 📫 Open to full-time roles and contract work
 
@@ -28,7 +29,7 @@ Reads twelve markets across four timeframes and explains, in plain English, what
 A NestJS platform that replaced a legacy PHP data API. It bridges MetaTrader 5 terminals to HTTP: candles, indicators, analysis feeds, chart rendering, order management, the economic calendar, and an MCP server so AI agents can use it as a toolset. Every legacy endpoint kept its exact contract, so existing bots and integrations moved over without changes. It runs as separate API, EA-gateway, and worker processes.
 `NestJS` `Redis` `BullMQ` `MCP` `Anthropic SDK` `OpenAPI`
 
-**DEX — crypto trading app and backend**
+**[DEX](https://trade.dex.org/) — crypto trading app and backend**
 A mobile exchange with spot and perpetual futures (TP/SL, up to 5× leverage), live charts and order books, and portfolio tracking, backed by a NestJS backend organised into clean-architecture modules: execution, market data, portfolio/PnL, social, and an outbox-based messaging layer.
 `Expo` `NestJS` `Prisma` `PostgreSQL` `Smart wallets`
 
